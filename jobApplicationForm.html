@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Job Application
+        </title>
+    </head>
+    <body>
+        <form action="https://formspree.io/maydzbep" method="post">
+            <h1>
+                Job Application
+            </h1>
+            <fieldset>
+                <legend>
+                    Personal information
+                </legend>
+                First name: <input type="text" name="firstname"> <br/>
+                Last name: <input type="text" name="lastname"> <br/>
+                Age: <input type="text" name="age"> <br/>
+                SSN: <input type="password" name="ssn"> <br/>
+                Address: <input type="text" name="address"> <br/>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Education
+                </legend>
+                School: <select name="school">
+                    <option value="uw">University of Washington</option>
+                    <option value="ucb">University of California, Berkeley</option>
+                    <option value="ucsd">University of California, San Digeo</option>
+                    <option value="uwm">University of Wisconsin, Madison</option>
+                    <option value="uci">University of California, Irvine</option>
+                </select> <br/>
+                Degree: <select name="degree">
+                    <option value="asso">Associate</option>
+                    <option value="Bache">Bachelor</option>
+                    <option value="phd">phd</option>
+                </select> <br/>
+                Major: <input type="text" name="Major"> <br/>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Personal statement
+                </legend>
+                Why you want to work here <br/>
+                <textarea name="essay1"></textarea> <br/>
+                What do you hope to learn from this position? <br/>
+                <textarea name="essay2"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Availability
+                </legend>
+                Will you able to work legally in United States? <br/>
+                <input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No <br/>
+                Will you need sponsorship in the future <br/>
+                <input type="radio" name="answer" value="yes"> Yes<br> <input type="radio" name="answer" value="no"> No <br/>
+                Do you wish to give us permission to give away your information? <br/>
+                <input type="checkbox" name="vehicle" value="Bike">Yes<br> <input type="checkbox" name="vehicle" value="Car">No <br/>
+            </fieldset>
+            <input type="submit" value="Submit form">
+        </form>
+    </body>
+</html>
