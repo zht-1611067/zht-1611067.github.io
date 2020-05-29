@@ -1,0 +1,13 @@
+#Title{
+    border: solid 10px blue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#Picture p{
+    float: right;
+    font-size: 60px;
+}
+#Picture img{
+    float: right; 
+}
